@@ -1,4 +1,5 @@
 rm(list = ls())
+dev.off(dev.list()["RStudioGD"])
 
 set.seed(3456)
 N<- 10000
